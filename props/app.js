@@ -1,9 +1,5 @@
 import main from './assets/images/mainimage.png';
 import './App.css';
-// import Analysis from './analysis';
-// import Planning from './planning';
-// import Design from './design';
-//import Building from './building';
 import Commoncard from './commonCard';
 
 function App() {
@@ -23,10 +19,7 @@ function App() {
         </div>
       </div>
       <div className='forcards'>
-        {/* <Analysis />
-        <Planning />
-        <Design /> 
-        <Building />*/}
+        
         <Commoncard divisionName='analysis' photoName={require('./assets/images/analysis.webp')} cardName='ANALYSIS' />
         <Commoncard divisionName='planning' photoName={require('./assets/images/planning.jpg')} cardName='PLANNING' />
         <Commoncard divisionName='design' photoName={require('./assets/images/design.avif')} cardName='DESIGN' />
